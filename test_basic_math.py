@@ -171,8 +171,4 @@ class TestBasicMath(unittest.TestCase):
         self.assertEqual(pred, 40)
 
 if __name__ == '__main__':
-    test = TestBasicMath()
-    test.test_get_greatest()
-    test.test_get_smallest()
-    test.test_get_mean()
-    test.test_get_median()
+    unittest.main()
